@@ -1,5 +1,7 @@
 package com.carsapi.api.model;
 
+import java.util.Date;
+
 import com.carsapi.api.dto.CarDTO;
 
 import jakarta.persistence.Entity;
@@ -30,7 +32,7 @@ public class Car {
 
   private String fabricante;
 
-  private String dataFabricacao;
+  private Date dataFabricacao;
 
   private Integer valor;
 
